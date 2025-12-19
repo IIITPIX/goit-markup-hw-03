@@ -26,38 +26,54 @@
   <body>
     <header>
       <div class="container header-content">
-          <nav class="header-nav">
-            <a href="./index.html" class="logo header-logo"><span>Web</span>Studio</a>
-            <ul class="nav-menu">
-              <li class="nav-menu-item"><a href="#" class="header-link">Portfolio</a></li>
-              <li class="nav-menu-item"><a href="#" class="header-link">Contacts</a></li>
-              <li class="nav-menu-item"><a href="#" class="header-link">Studio</a></li>
-            </ul>
-          </nav>
-  
-          <address class="address">
-            <ul class="header-address-list">
-              <li class="header-address-item header-link"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
-              <li class="header-address-item header-link"><a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a></li>
-            </ul>
-          </address>
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo"
+            ><span>Web</span>Studio</a
+          >
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="#" class="header-link">Studio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="header-link">Portfolio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="header-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="address">
+          <ul class="header-address-list">
+            <li class="header-address-item header-link">
+              <a href="mailto:info@devstudio.com" class="address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-item header-link">
+              <a href="tel:+110001111111" class="address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
     <main>
-        <section class="solution-section">
-          <div class="container">
-            <div class="solution-contant">
-          <h1 class="main-titel">Effective Solutions for Your Business</h1>
+      <section class="solution-section">
+        <div class="container">
+          <div class="solution-contant">
+            <h1 class="main-titel">Effective Solutions for Your Business</h1>
             <button type="button" class="order-button">Order Service</button>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <div class="container">
+      <section class="our-features-section">
+        <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
-          <ul class="our-features">
+          <ul class="our-features-list">
             <li class="our-features-item">
               <h3 class="our-features-item-titel">Strategy</h3>
               <p>
@@ -87,11 +103,11 @@
               </p>
             </li>
           </ul>
-           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="our-team">
-          <div class="container our-team-container">
+      <section class="our-team our-team-section">
+        <div class="container">
           <h2 class="our-team-titel">Our Team</h2>
           <ul class="our-team-list">
             <li class="our-team-item">
@@ -144,11 +160,11 @@
               </div>
             </li>
           </ul>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <div class="our-portfolio">
-          <div class="container out-portfolio-container">
+      <section class="our-portfolio out-portfolio-section">
+        <div class="container">
           <h2 class="our-portfolio-titel">Our Portfolio</h2>
           <ul class="our-portfolio-list">
             <li class="our-portfolio-item">
@@ -206,8 +222,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-item-titel">Screen Illustrations</h3>
-              <p>Design</p>
+              <div class="our-portfolio-item-text">
+                <h3 class="our-portfolio-item-titel">Screen Illustrations</h3>
+                <p>Design</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -223,18 +241,19 @@
             </li>
           </ul>
         </div>
-        </section>
+      </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-cantainer">
-        <a href="./index.html" class="logo footer-logo"><span>Web</span>Studio</a>
+    <footer class="footer footer-section">
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo"
+          ><span>Web</span>Studio</a
+        >
         <p class="footer-text">
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
         </p>
       </div>
     </footer>
   </body>
 </html>
-`
