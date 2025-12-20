@@ -112,6 +112,7 @@ header {
 
 .header-link {
   padding: 24px 0;
+  display: block;
 }
 .nav-menu-item {
   font-weight: 500;
@@ -139,10 +140,8 @@ header {
 .address-link {
   color: #434455;
   font-style: normal;
-}
-
-.address-link {
   padding: 24px 0;
+  display: block;
 }
 
 .address-link:hover,
@@ -221,7 +220,7 @@ header {
 }
 
 .our-team-item {
-  width: calc(264px / (100% - 72px) / 4);
+  width: calc((100% - 24px * 3) / 4)
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
 }
